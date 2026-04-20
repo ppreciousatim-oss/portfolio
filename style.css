@@ -1,0 +1,239 @@
+/* body{
+    font-family: Arial, sans-serif;
+    background-color:darksalmon;
+    margin: 0;
+    padding: 0;
+} */
+/* center section */
+.profile {
+    background-color: gray;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin: 30px 15px;
+    text-align: center;
+}
+
+/* card  */
+.profile-card{
+    background-color:lightgray;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+/* profile image */
+.profile-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+/* name */
+.name {
+    font-size: 24px;
+    color:rebeccapurple;
+    margin: 10px 0;
+}
+/* skill list */
+.skill-list {
+    font-size: 20px;
+    color: rebeccapurple;
+    margin: 20px 10px;
+}
+/* role */
+.role{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: black;
+    margin-top: -5px;
+}
+/* footer */
+footer {
+    background-color: gray;
+    padding: 10px;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.footer-content{
+    width: 33.33%;
+}
+h3{
+    color:black;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 1opx;
+}
+.footer-content{
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    padding: 5px;
+
+}
+.list{
+    padding : 0;
+}
+.list li{
+    width:auto;
+    list-style: none;
+    padding: 5px;
+    font-size: 16px;
+    color: black;
+    position: relative;
+}
+.list li::before{
+    content: "•";
+   background :burlywood;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    height: 2px;
+    width: 0;
+    transition-duration: -5% ;
+}
+.list li:hover::before{
+    width: 70px;
+}
+.social-icons{
+    text-align: center;
+    display: inline-block;
+    padding: 0;
+}
+.social-icons li{
+    display: inline-block;
+    margin: 0 10px;
+}
+.bottom-bar{
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50px;
+    color: black;
+}
+
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+/* colors */
+:root{
+    --coffee: #8b5e3c;
+    --coffee-dark:#5a3b23;
+    --coffee-light:#b07a50;
+}
+
+.container{
+    padding: 20px 0;
+    margin: 10px;
+    border: #4a2f1d;
+}
+/* navbar */
+.nav{
+    background: linear-gradient(90deg,var(--coffee-dark), var(--coffee));
+}
+
+/* hero */
+.hero-section{
+    background: linear-gradient(rgba(90,59,35,.9), rgba(90,59,35,.9));
+}
+.hero-section h1{
+    padding: 10px;
+    font-family: catamaran;
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: 300;
+    color: brown;
+    text-align: center;
+    text-shadow: 2px 2px 8px #111;
+}
+.hero-text{
+    padding: 10px;
+    font-family: cormorant Garamond;
+    font-size: 28px;
+    font-weight: 100;
+    color: black;
+    font-style: italic;
+    line-height: 30px;
+}
+
+.hero-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.hero-img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50px;
+    border: 8px solid rgba(255,255,255,.2);
+    text-align: right;
+
+}
+/* button */
+.btn-coffee{
+    background: var(--coffee);
+    color: beige;
+    border-radius: 8px;
+}
+.btn-coffee:hover {
+    background: var(--coffee-light);
+color: beige;
+}
+.section-title{
+    font-weight: 700;
+    color: var(--coffee-dark);
+}
+/* projects */
+.project-card {
+    border: brown;
+    box-shadow: 0 10px 25px rgba(0,0,0,.08);
+    border-radius: 12px;
+}
+.black-container{
+    background-color: #b07a50;
+}
+/* contact */
+.contact-section{
+    background: #ffffff;
+    background: linear-gradient(90deg, var(--coffee-dark), var(--coffee));
+    padding: 60px;
+    
+}
+.contact-form{
+    max-width: 450px;
+    margin: auto;
+    background-color:  #b07a50;;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+.footer{
+    background: #4a2f1d;
+    padding: 40px 40px;
+}
+.social-icons i{
+    margin: 0 8px;
+    font-size: 20px;
+    cursor: pointer;
+    color: crimson;
+}
+.card{
+    width: 10cm;
+    height: 10cm;
+    display: inline-flex;
+    flex-direction: row;
+     margin: 20px;
+    
+
+}
